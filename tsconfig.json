@@ -10,6 +10,8 @@
     "moduleResolution": "node",
     // Raise errors for untyped expressions or declarations.
     "noImplicitAny": true,
+    // Attach inline source maps.
+    "sourceMap": true,
     // Suppress noImplicitAny errors when indexing.
     "suppressImplicitAnyIndexErrors": true,
     // Generate ES5.

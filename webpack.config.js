@@ -13,12 +13,18 @@ module.exports = {
   module: {
     rules: [
       {
+        enforce: 'pre',
+        test: /\.ts$/,
+        loader: 'source-map-loader'
+      },
+      {
         test: /\.ts$/,
         loader: 'ts-loader',
         exclude: /node_modules/
       }
     ]
   },
+  devtool: 'source-map',
   devServer: {
     contentBase: [
       // For index.html.
