@@ -9,6 +9,16 @@
   },
   "author": "John Freeman <jfreeman08@gmail.com>",
   "license": "MIT",
+  "dependencies": {
+    "@angular/common": "^2.4.8",
+    "@angular/compiler": "^2.4.7",
+    "@angular/core": "^2.4.7",
+    "@angular/platform-browser": "^2.4.7",
+    "@angular/platform-browser-dynamic": "^2.4.7",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.1.1",
+    "zone.js": "^0.7.6"
+  },
   "devDependencies": {
     "ts-loader": "^2.0.0",
     "typescript": "^2.1.6",

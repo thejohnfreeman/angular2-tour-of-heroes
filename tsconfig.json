@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    // Let us use fancy Angular decorators, e.g. @Component.
+    "experimentalDecorators": true,
     // Declare that our global scope includes objects from ES2015 and the DOM.
     "lib": ["es2015", "dom"],
     // Generate a CommonJS module for Webpack.

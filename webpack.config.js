@@ -1,4 +1,5 @@
 var path = require('path')
+var webpack = require('webpack')
 
 module.exports = {
   entry: './src/main.ts',
@@ -19,7 +20,19 @@ module.exports = {
     ]
   },
   devServer: {
-    // Search for static files under this path.
-    contentBase: path.resolve(__dirname, 'src')
-  }
+    contentBase: [
+      // For index.html.
+      path.resolve(__dirname, 'src'),
+      // For node_modules.
+      __dirname
+    ]
+  },
+  plugins: [
+    // Eliminate "dependency is an expression" warnings.
+    // https://github.com/angular/angular/issues/11580#issuecomment-275654083
+    new webpack.ContextReplacementPlugin(
+      /angular(\\|\/)core(\\|\/)(esm(\\|\/)src|src)(\\|\/)linker/,
+      path.resolve('does-not-exist')
+    )
+  ]
 }
