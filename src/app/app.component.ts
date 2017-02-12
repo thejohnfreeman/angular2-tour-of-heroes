@@ -2,8 +2,9 @@ import { Component } from "@angular/core";
 
 @Component({
   selector: "app-element",
-  template: `<h1>Hello {{name}}!</h1>`,
+  template: "<h1>{{title}}</h1><h2>{{hero}} details!</h2>",
 })
 export class AppComponent {
-  public name = "World";
+  public title = "Tour of Heroes";
+  public hero = "Windstorm";
 }
