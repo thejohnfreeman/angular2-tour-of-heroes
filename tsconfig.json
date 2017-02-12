@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    // Declare that our global scope includes objects from ES2015 and the DOM.
+    "lib": ["es2015", "dom"],
+    // Generate a CommonJS module for Webpack.
+    "module": "commonjs",
+    // Resolve dependencies like Node.js.
+    "moduleResolution": "node",
+    // Raise errors for untyped expressions or declarations.
+    "noImplicitAny": true,
+    // Suppress noImplicitAny errors when indexing.
+    "suppressImplicitAnyIndexErrors": true,
+    // Generate ES5.
+    "target": "es5"
+  }
+}

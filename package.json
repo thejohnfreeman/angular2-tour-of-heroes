@@ -10,6 +10,8 @@
   "author": "John Freeman <jfreeman08@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "ts-loader": "^2.0.0",
+    "typescript": "^2.1.6",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.3.0"
   }
