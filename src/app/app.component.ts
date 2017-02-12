@@ -1,9 +1,9 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-element',
-  template: `<h1>Hello {{name}}!</h1>`
+  selector: "app-element",
+  template: `<h1>Hello {{name}}!</h1>`,
 })
 export class AppComponent {
-  name = 'World';
+  public name = "World";
 }
