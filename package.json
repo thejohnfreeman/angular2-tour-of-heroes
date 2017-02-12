@@ -1,0 +1,14 @@
+{
+  "name": "tour-of-heroes",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "build": "webpack",
+    "test": "false"
+  },
+  "author": "John Freeman <jfreeman08@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  }
+}
