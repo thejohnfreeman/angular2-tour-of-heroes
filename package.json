@@ -22,6 +22,9 @@
     "zone.js": "^0.7.6"
   },
   "devDependencies": {
+    "@types/node": "^7.0.5",
+    "angular2-template-loader": "^0.6.2",
+    "raw-loader": "^0.5.1",
     "source-map-loader": "^0.1.6",
     "ts-loader": "^2.0.0",
     "tslint": "^4.4.2",
