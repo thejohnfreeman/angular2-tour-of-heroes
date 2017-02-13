@@ -35,7 +35,8 @@ module.exports = {
       path.resolve(__dirname, 'src'),
       // For node_modules.
       __dirname
-    ]
+    ],
+    historyApiFallback: true
   },
   plugins: [
     // Eliminate "dependency is an expression" warnings.
