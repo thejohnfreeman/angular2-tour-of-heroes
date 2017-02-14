@@ -1,5 +1,5 @@
 import { Location } from "@angular/common";
-import { Component, Input, OnInit } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
 import { ActivatedRoute, Params } from "@angular/router";
 
 import "rxjs/add/operator/switchMap";
@@ -9,10 +9,10 @@ import { HeroService } from "./hero.service";
 
 @Component({
   selector: "hero-detail",
+  styleUrls: ["./hero-detail.component.css"],
   templateUrl: "./hero-detail.component.html",
 })
 export class HeroDetailComponent implements OnInit {
-  @Input()
   private hero: Hero;
 
   constructor(
