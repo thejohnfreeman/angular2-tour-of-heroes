@@ -27,12 +27,16 @@ import { HeroesComponent } from "./heroes.component";
         redirectTo: "/dashboard",
       },
       {
-        component: HeroesComponent,
-        path: "heroes",
-      },
-      {
         component: DashboardComponent,
         path: "dashboard",
+      },
+      {
+        component: HeroDetailComponent,
+        path: "detail/:id",
+      },
+      {
+        component: HeroesComponent,
+        path: "heroes",
       },
     ]),
   ],
