@@ -34,6 +34,16 @@ $ git checkout .
 $ git rebase --continue
 ```
 
+The build and test are guaranteed to work without warnings or errors at every
+commit!
+
+One last way to use this project is to browse the source. Upon seeing
+an interesting line, you can use
+[`git blame`](https://git-scm.com/docs/git-blame) to find the commit that
+introduced that line. That commit will give you the full context explaining
+why that line was added (with links to external resources) and showing what
+else came with it.
+
 ## A note on dependency management
 
 I use [Yarn](https://yarnpkg.com/en/) to manage the dependencies as I go
