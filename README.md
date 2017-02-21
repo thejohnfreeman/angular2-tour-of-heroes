@@ -1,5 +1,7 @@
 # Angular 2 Tutorial: Tour of Heroes
 
+[![Dependency Status](https://gemnasium.com/badges/github.com/thejohnfreeman/angular2-tour-of-heroes.svg)](https://gemnasium.com/github.com/thejohnfreeman/angular2-tour-of-heroes)
+
 Welcome! This project is a guided progression through the [Angular
 2 Tutorial](https://angular.io/docs/ts/latest/tutorial/) (using
 [Webpack](https://webpack.js.org/) instead of SystemJS). It is designed as
