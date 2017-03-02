@@ -11,11 +11,12 @@ an empty directory (unlike the tutorial itself!) and progressing through
 every step in the tutorial.
 
 One way you might use this project is to head to the [commits page on
-GitHub][commits] and read every commit from the first. This way lets you read
-each explanation alongside a concise diff without going through the hassle of
-checking out code.
+GitHub][commits] and read every commit from the [first][]. This way lets you
+read each explanation alongside a concise diff without going through the
+hassle of checking out code.
 
 [commits]: https://github.com/thejohnfreeman/angular2-tour-of-heroes/commits/master
+[first]: https://github.com/thejohnfreeman/angular2-tour-of-heroes/commit/9249a079540892abd95c52a799184b5686703af6
 
 Another way is to check out the code and follow the progression using an
 interactive rebase:
