@@ -23,9 +23,11 @@ interactive rebase:
 
 ```sh
 $ git rebase --interactive --root
-# %s/^pick/edit/
+# :%s/^pick/edit/
 # :wq
 # This will drop you into the very first commit.
+# Install the dependencies.
+$ npm install
 # Build the application bundle with Webpack.
 $ npm run build
 # Starting from the second commit, you can serve the application to your
@@ -36,6 +38,7 @@ $ npm test
 # Experiment with the code! When you're ready to move on to the next step:
 $ git checkout .
 $ git rebase --continue
+# Repeat from the step `npm install`
 ```
 
 The build and test are guaranteed to work without warnings or errors at every
