@@ -23,6 +23,13 @@ module.exports = {
         exclude: /node_modules/
       },
       {
+        test: /index.html/,
+        loader: 'file-loader',
+        options: {
+          emitFile: false
+        }
+      },
+      {
         test: /\.(html|css)$/,
         use: 'raw-loader'
       }

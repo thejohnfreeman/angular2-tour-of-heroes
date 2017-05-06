@@ -26,6 +26,7 @@
   "devDependencies": {
     "@types/node": "^7.0.18",
     "angular2-template-loader": "^0.6.2",
+    "file-loader": "^0.11.1",
     "raw-loader": "^0.5.1",
     "source-map-loader": "^0.1.6",
     "ts-loader": "^2.0.0",
